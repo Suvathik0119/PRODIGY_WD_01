@@ -1,0 +1,363 @@
+
+body{
+    width: 100%;
+    font-family: serif;
+    background-color: #1e2c39;
+}
+
+/*---------------------------------------------*/
+
+/*-- Header --*/
+
+.header{
+    background-color: #820f15;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.header a{
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 30px;
+    text-decoration:none;
+    opacity: 75%;
+    transition: all 0.5s ease-in-out;
+}
+.header a:hover{
+    opacity: 100%;
+    text-shadow: 1px 1px 10px #ffffff;
+}
+.header a img{
+    max-width: 2%;
+}
+
+/*-- Header-End --*/
+
+/*-------------------------------------------------------------------------*/
+
+/*-- Home --*/
+.home{
+    text-align: center;
+}
+.home img{
+    width: 100%;
+    padding-top: 5%;
+    
+}
+.home h1{
+    cursor: pointer;
+    color: #fff;
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: 800;
+    transform: translateY(-700px);
+    margin-bottom: 0;
+}
+.home h1 span{
+    color: #fe1a27;
+    font-family: sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+.home h2{
+    cursor: pointer;
+    color: #fff;
+    font-size: 55px;
+    font-family: cursive;
+    transform: translateY(-700px);
+    margin-bottom: 0;
+}
+.home h1 span:hover{
+    text-shadow: 2px 2px 15px black;
+}
+.home h2 span{
+    color: #fe1a27;
+    font-family: sans-serif;
+    font-size: 65px;
+    letter-spacing: 2px;
+    transition: all 0.5s ease-in-out;
+}
+.home h2 span:hover{
+    text-shadow: 2px 2px 15px black;
+}
+.home button{
+    cursor: pointer;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: serif;
+    border: 2px solid #9599a2;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 2px 75px;
+    transition: all 0.5s ease-in-out;
+    transform: translateY(-600px);
+    margin-bottom: 0;
+}
+.home button:hover{
+    color: #1e2c39;
+    background-color: #9599a2;
+    box-shadow: 1px 1px 35px black;
+}
+
+/*-- Home-End --*/
+
+/*--------------------------------------------------------------------*/
+
+/*-- About Us --*/
+.about{
+    width: 100%;
+    cursor: default;
+    font-family: cursive;
+}
+.about img{
+    width: 45%;
+    margin-left: 3%;
+    align-items: start;
+    box-shadow: 2px 2px 15px black;
+}
+.about p{
+    text-align: center;
+    color: #9599a2;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-shadow: 20px 20px 45px black;
+}
+.about p span{
+    color: #fe1a27;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.ab{
+    max-width: 45%;
+    padding-left: 50%;
+    transform: translateY(-400px);
+}
+.ab p{
+    text-align:right;
+    color: #9599a2;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ab p span{
+    color: #fe1a27;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/*-- About us-End --*/
+
+/*-----------------------------------------------------------------------*/
+
+/*-- Programs --*/
+
+.pro{
+    color: #fff;
+}
+.pro h3{
+    font-family: cursive;
+    text-align: center;
+    color: #9599a2;
+    font-size: 45px;
+    text-shadow: 2px 2px 15px black;
+}
+.pro h3 span{
+    font-family: serif;
+    color: #fe1a27;
+    font-size: 50px;
+}
+.pr{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+/*---------------------------------------------*/
+/*-- P1 --*/
+.p1{
+    max-width: 30%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.p1:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.p1 img{
+    max-width: 80%;
+    padding: 5% 10% 0% 10%;
+}
+/*-- P1-End --*/
+
+/*---------------------------------------------*/
+
+/*-- P2 --*/
+.p2{
+    max-width: 30%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    
+}
+.p2 img{
+    max-width: 80%;
+    padding: 5% 10% 0% 10%;
+}
+/*-- P2-End --*/
+
+/*---------------------------------------------*/
+
+/*-- P3 --*/
+.p3{
+    max-width: 30%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.p3 img{
+    max-width: 90%;
+    padding: 5% 7% 0% 7%;
+}
+/*-- P3-End --*/
+
+/*-- Programs-End --*/
+
+/*-------------------------------------------------------------------------------*/
+
+/*-- Training --*/
+
+.train{
+    color: #fff;
+    margin-bottom: 10%;
+}
+.train h3{
+    margin-top: 10%;
+    font-family: cursive;
+    text-align: center;
+    color: #9599a2;
+    font-size: 45px;
+    text-shadow: 2px 2px 15px black;
+}
+.train h3 span{
+    font-family: serif;
+    color: #fe1a27;
+    font-size: 50px;
+}
+.t{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+}
+/*---------------------------------------------*/
+/*-- T1 --*/
+.t1{
+    max-width: 15%;
+    height: 200px;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    margin-left: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.t1:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.t1 img{
+    max-width: 80%;
+    padding: 5% 10% 0% 10%;
+}
+/*-- T1-End --*/
+
+/*---------------------------------------------*/
+
+/*-- T2 --*/
+.t2{
+    max-width: 15%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    height: 200px;
+}
+.t2:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.t2 img{
+    max-width: 80%;
+    padding: 5% 10% 0% 10%;
+}
+/*-- T2-End --*/
+
+/*---------------------------------------------*/
+
+/*-- T3 --*/
+.t3{
+    max-width: 15%;
+    height: 200px;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.t3:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.t3 img{
+    max-width: 80%;
+    padding: 5% 7% 0% 7%;
+}
+/*-- T3-End --*/
+
+/*---------------------------------------------*/
+
+/*-- T4 --*/
+.t4{
+    max-width: 15%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.t4:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.t4 img{
+    max-width: 90%;
+    padding: 5% 7% 0% 7%;
+}
+/*-- T4-End --*/
+
+/*---------------------------------------------*/
+
+/*-- T5 --*/
+.t5{
+    max-width: 15%;
+    border: 5px solid #9599a2;
+    margin-right: 3%;
+    box-shadow: 2px 2px 15px black;
+}
+.t5:hover{
+    box-shadow: 2px 2px 15px #9599a2;
+}
+.t5 img{
+    max-width: 80%;
+    padding: 5% 10% 0% 10%;
+}
+/*-- T5-End --*/
+
+/*-- Training-End --*/
+
+/*---------------------------------------------*/
+
+/*-- Footer --*/
+
+.footer{
+    color: #9599a2;
+    opacity: 60%;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+/*-- Footer-End --*/
